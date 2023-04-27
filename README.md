@@ -72,10 +72,13 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 ## STM 32 CUBE PROGRAM :
 Developed by: KANCHARLA NARMADHA
+
 Register Number:212222110016
 
 #include "main.h"
+
 void SystemClock_Config(void);
+
 static void MX_GPIO_Init(void);
 
 int main(void)
