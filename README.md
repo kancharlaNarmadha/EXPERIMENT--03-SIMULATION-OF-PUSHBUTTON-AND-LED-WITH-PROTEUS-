@@ -71,9 +71,8 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 
 ## STM 32 CUBE PROGRAM :
-Developed by: KANCHARLA NARMADHA
-
-RegisterNumber: 212222110016
+DEVELOPED BY: KANCHARLA NARMADHA
+REGISTER NUMBER: 212222110016
 
 #include "main.h"
 void SystemClock_Config(void);
@@ -125,8 +124,9 @@ void Error_Handler(void)
 ## Output screen shots of proteus  :
 
 LED OFF:
+![LED OFF 2](https://user-images.githubusercontent.com/119559316/234862144-ba2bf322-d236-45e1-826f-80e4fd813765.png)
 
-![LED OFF](https://user-images.githubusercontent.com/119559316/234860464-3fa171f9-87b5-4c84-add1-e8e015ab8051.png)
+
 
 LED ON:
 
