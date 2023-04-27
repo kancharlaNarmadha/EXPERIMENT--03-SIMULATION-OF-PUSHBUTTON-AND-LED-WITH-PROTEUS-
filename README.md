@@ -73,12 +73,10 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 ## STM 32 CUBE PROGRAM :
 Developed by: KANCHARLA NARMADHA
 
-Register Number:212222110016
+RegisterNumber: 212222110016
 
 #include "main.h"
-
 void SystemClock_Config(void);
-
 static void MX_GPIO_Init(void);
 
 int main(void)
@@ -94,49 +92,32 @@ int main(void)
   {
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
 	  HAL_Delay(500);
-	  
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 	  HAL_Delay(500);
-	  
     
   }
-  
  
 }
-
 
  
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
-  
   {
-  
     Error_Handler();
-    
   }
-  
 }
-
-
 
 
   
 
 void Error_Handler(void)
-
 {
-
   
   __disable_irq();
-  
   while (1)
-  
   {
-  
   }
   
-  
 }
-
 
 
 
