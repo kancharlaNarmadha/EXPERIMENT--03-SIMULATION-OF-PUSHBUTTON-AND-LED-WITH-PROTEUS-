@@ -94,32 +94,49 @@ int main(void)
   {
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
 	  HAL_Delay(500);
+	  
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 	  HAL_Delay(500);
+	  
     
   }
+  
  
 }
 
+
  
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  
   {
+  
     Error_Handler();
+    
   }
+  
 }
+
+
 
 
   
 
 void Error_Handler(void)
+
 {
+
   
   __disable_irq();
+  
   while (1)
+  
   {
+  
   }
   
+  
 }
+
 
 
 
