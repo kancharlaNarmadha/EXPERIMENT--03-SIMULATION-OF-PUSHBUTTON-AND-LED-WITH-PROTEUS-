@@ -124,10 +124,6 @@ LED ON:
 ![LED ON](https://user-images.githubusercontent.com/119559316/234860569-273eaa61-04e3-4c6e-886f-6f51e9152e0c.png)
 
 
-
-## Proteus layout(Add pdf screen shot of circuit here)
- 
- 
  
  
 ## Result :
